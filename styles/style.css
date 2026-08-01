@@ -1,0 +1,111 @@
+/* =======================================================
+   GLOBAL STYLES
+======================================================= */
+
+html,
+body,
+.stApp {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Hide Streamlit UI */
+
+header {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+#MainMenu {
+    visibility: hidden;
+}
+
+/* Main spacing */
+
+.main > div {
+    padding-top: 0rem;
+}
+
+/* Images */
+
+img {
+    user-select: none;
+    pointer-events: none;
+}
+
+/* Buttons */
+
+.stButton button {
+
+    transition: .35s ease;
+
+    cursor: pointer;
+
+}
+
+.stButton button:hover {
+
+    transform: scale(1.03);
+
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-track {
+
+    background: rgba(255,255,255,.15);
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #d62839;
+
+    border-radius: 20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+    background: #b00020;
+
+}
+
+/* Links */
+
+a {
+
+    text-decoration: none;
+
+}
+
+/* Utility */
+
+.center {
+
+    text-align: center;
+
+}
+
+.hidden {
+
+    display: none;
+
+}
+
+.fade {
+
+    animation: fadeIn 1s ease;
+
+}
